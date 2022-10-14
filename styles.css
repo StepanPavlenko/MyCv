@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background: #f1f1f1;
+    color: #0f141e;
+    font: normal 16px 'Roboto', sans-serif;
+}
+
+a {
+    color: #2a4e96;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #962a7f;
+}
+
+a:active {
+    color: #000000;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 10px;
+}
+/* наверно тень работает, но есть маска чи слой чи шо */
+.avatar:hover {
+    box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.25);
+}
+
+.main_info p {
+    color: #86898f;
+    font-style: italic;
+
+    text-decoration: none;
+    margin: 0px;
+}
+
+.main_info {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 700px) {
+    .main_info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.informationText {
+    margin-left: 40px;
+    cursor: default;
+}
+
+.informationText p {
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bg-collor {
+    background: #e2e2e2;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.card:hover {
+    box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+}
+
+.list {
+    padding: 0px 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding: 0px 10px 10px;
+}
+
+.table td:nth-child(2),
+td:nth-child(3),
+td:nth-child(4),
+td:nth-child(5) {
+    color: #86898f;
+}
+
+.un_list {
+    padding: 0px;
+    list-style: none;
+}
+
+.un_list li {
+    margin-bottom: 10px;
+    padding-bottom: 3px;
+}
+
+.contactMe h3 {
+    text-align: center;
+    margin: 20px 0px;
+    cursor: default;
+}
+
+.form-group label {
+    display: flex;
+    font-size: 16px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 61%;
+    padding: 10px 0px 10px;
+    border: none;
+    background: transparent;
+    border: 1px solid #0f141e;
+    border-radius: 10px;
+    margin: 10px 0px;
+    font-family: inherit;
+    outline: none;
+}
+.form-group input:hover,
+.form-group textarea:hover {
+    box-shadow: 4px 4px 14px 0px rgba(0, 0, 0, 0.25);
+}
+
+.form-group ::placeholder {
+    padding-left: 8px;
+}
+
+.button {
+    background-color: #e2e2e2;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    font-family: inherit;
+    width: 165px;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
